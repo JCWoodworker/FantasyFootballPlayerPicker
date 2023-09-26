@@ -1,11 +1,13 @@
-import { useState, useEffect } from "react"
+import React from "react"
 import "./App.css"
 
+import { PlayersIndex } from "./pages/Players/PlayersIndex"
+
 function App() {
-	useEffect(() => {}, [])
 	return (
 		<>
 			<h1>Fantasy Picks!!</h1>
+			<PlayersIndex />
 		</>
 	)
 }

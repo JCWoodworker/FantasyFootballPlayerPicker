@@ -1,4 +1,4 @@
-interface Player {
+export interface PlayerInterface {
 	PlayerID: number
 	FirstName: string
 	LastName: string

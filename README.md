@@ -8,6 +8,8 @@
 
 ## Team Information
 
+* USE HARDCODED DATA
+
 ### Vegas Data
 
 The following are keys available for all players and all teams:

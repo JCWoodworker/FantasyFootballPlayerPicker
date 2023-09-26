@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+img {
+  border-radius: 1rem;
+  background-color: gray;
+}
+
+.players-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.player-show {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid gray
+}
