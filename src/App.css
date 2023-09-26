@@ -51,11 +51,11 @@ img {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-
 }
 
 .player-show {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid gray
+  border: 1px solid gray;
+  border-radius: 1rem
 }

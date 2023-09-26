@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { activePlayers } from "../../data/PlayerData"
 
+import PlayerSearchBar from "./PlayerSearchBar"
 import PlayerShow from "./PlayerShow"
 
 export const PlayersIndex: React.FC = () => {
@@ -14,6 +15,7 @@ export const PlayersIndex: React.FC = () => {
 	return (
 		<div>
 			<h2>Players</h2>
+			<PlayerSearchBar />
 			<div className="players-list">
 			{playerList.map((player) => (
 				<PlayerShow key={player.PlayerID} player={player} />
