@@ -17,21 +17,22 @@ const PlayerShow = ({ player }) => {
 			<h3>
 				{player.FirstName} {player.LastName}
 			</h3>
-			<p>{player.Team}</p>
-			<p>{player.Position}</p>
+			<p>
+				{player.Team} - {player.Position}
+			</p>
 		</>
 	)
 
-	let fetchedPlayer = null
+	let buttonText = "Get Weekly Salaries"
 	if (clickedButton) {
-		fetchedPlayer = (
-			<>
-				<p>Loading ... </p>
-			</>
-		)
+		buttonText = "Loading ..."
 	}
+
+	let fetchedPlayer = null
 	if (detailedPlayerData) {
-		() => setClickedButton(false)
+		() => setClickedButton(false);
+		buttonText = "See Salaries Below"
+
 		fetchedPlayer = (
 			<>
 				{Object.entries(detailedPlayerData)
@@ -52,7 +53,7 @@ const PlayerShow = ({ player }) => {
 		<div className="player-show">
 			{showDetails}
 			<div>
-				<button onClick={onButtonClick}>Get Player Details</button>
+				<button disabled={clickedButton} onClick={onButtonClick}>{buttonText}</button>
 			</div>
 			{fetchedPlayer}
 		</div>
