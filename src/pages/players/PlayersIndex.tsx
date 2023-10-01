@@ -18,11 +18,17 @@ export const PlayersIndex: React.FC = () => {
 			(player) => player.Position === filterPosition
 		)
 		setPlayerList(filteredPlayers)
+		setSelectionOptions(() =>
+			filteredPlayers.map((player) => ({
+				value: `${player.FirstName} ${player.LastName}`,
+				label: `${player.FirstName} ${player.LastName}`,
+			}))
+		)
 	}
 
 	useEffect(() => {
 		showFilteredPlayers()
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [filterPosition])
 
 	return (
