@@ -32,6 +32,15 @@ export const PlayersIndex: React.FC = () => {
 		setDraftedPlayers(newDraftedPlayers)
 	}
 
+	const onSearchChange = (e) => {
+		e.preventDefault()
+		const filteredDraftedPlayers = draftedPlayerList.filter((player) =>
+			player.FullName.toLowerCase().includes(e.target.value)
+		)
+		setDraftedPlayers(filteredDraftedPlayers)
+	}
+
+
 	return (
 		<div>
 			<div>
@@ -45,6 +54,7 @@ export const PlayersIndex: React.FC = () => {
 			</div>
 			<div>
 				<h2>Available Players</h2>
+				<input type="text" placeholder="Search" onChange={onSearchChange} />
 				<Suspense fallback={<div>Loading Players...</div>}>
 					<div className="players-list">
 						{draftedPlayers.map((player) => (
