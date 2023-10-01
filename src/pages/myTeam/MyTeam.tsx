@@ -1,7 +1,7 @@
 import React from "react"
 import MyTeamPlayerShow from "./MyTeamPlayerShow"
 
-export const MyTeamL: React.FC = ({ myTeamList, setMyTeamList, addDeletedTeammatesBackToDraftedPlayers }) => {
+export const MyTeam: React.FC = ({ myTeamList, setMyTeamList, addDeletedTeammatesBackToDraftedPlayers }) => {
 	const onButtonClick = (e) => {
 		e.preventDefault()
 		addDeletedTeammatesBackToDraftedPlayers(e.target.id)

@@ -6,10 +6,8 @@ import { sortPlayersByAverageDraftPosition } from "../../utilities/sortPlayersBy
 
 import MyTeam from "../../pages/myTeam/MyTeam"
 
-const [draftedPlayerList, undraftedPlayerList]: [
-	ActivePlayer[],
-	ActivePlayer[]
-] = sortPlayersByAverageDraftPosition(activePlayers)
+const draftedPlayerList: ActivePlayer[] =
+	sortPlayersByAverageDraftPosition(activePlayers)
 
 export const PlayersIndex: React.FC = () => {
 	const [draftedPlayers, setDraftedPlayers] = useState(draftedPlayerList)
@@ -27,9 +25,11 @@ export const PlayersIndex: React.FC = () => {
 		const playerToAddBack = draftedPlayerList.find(
 			(p) => p.PlayerID == deletedTeammateId
 		)
-		const newDraftedPlayers = [...draftedPlayers, playerToAddBack]
-		const [goodPlayers, badPlayers] = sortPlayersByAverageDraftPosition(newDraftedPlayers)
-		setDraftedPlayers(goodPlayers)
+		const newDraftedPlayers = sortPlayersByAverageDraftPosition([
+			...draftedPlayers,
+			playerToAddBack,
+		])
+		setDraftedPlayers(newDraftedPlayers)
 	}
 
 	return (

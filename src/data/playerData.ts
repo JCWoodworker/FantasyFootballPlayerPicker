@@ -620,7 +620,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/16378.png",
 		ByeWeek: 11,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 43973,
 		DraftKingsPlayerID: 558973,
 		YahooPlayerID: 28141,
@@ -1057,7 +1057,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/16928.png",
 		ByeWeek: 9,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 26057,
 		DraftKingsPlayerID: 556483,
 		YahooPlayerID: 28556,
@@ -1475,7 +1475,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/18103.png",
 		ByeWeek: 5,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 32703,
 		DraftKingsPlayerID: 605325,
 		YahooPlayerID: 29420,
@@ -2064,7 +2064,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/18998.png",
 		ByeWeek: 14,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 57909,
 		DraftKingsPlayerID: 840760,
 		YahooPlayerID: 30256,
@@ -2330,7 +2330,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/19207.png",
 		ByeWeek: 9,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 57091,
 		DraftKingsPlayerID: 838179,
 		YahooPlayerID: 30511,
@@ -2957,7 +2957,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/19912.png",
 		ByeWeek: 13,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 63625,
 		DraftKingsPlayerID: 880146,
 		YahooPlayerID: 31074,
@@ -3147,7 +3147,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20006.png",
 		ByeWeek: 5,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 52916,
 		DraftKingsPlayerID: 822014,
 		YahooPlayerID: 31164,
@@ -3299,7 +3299,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20074.png",
 		ByeWeek: 9,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 56289,
 		DraftKingsPlayerID: 836140,
 		YahooPlayerID: 31480,
@@ -3432,7 +3432,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/20199.png",
 		ByeWeek: 5,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 46177,
 		DraftKingsPlayerID: 746301,
 		YahooPlayerID: 31283,
@@ -4819,7 +4819,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/21601.png",
 		ByeWeek: 6,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 104577,
 		DraftKingsPlayerID: 1168410,
 		YahooPlayerID: 32612,
@@ -5199,7 +5199,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/21725.png",
 		ByeWeek: 13,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 72493,
 		DraftKingsPlayerID: 943189,
 		YahooPlayerID: 33253,
@@ -6130,7 +6130,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22138.png",
 		ByeWeek: 6,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: null,
 		DraftKingsPlayerID: 866174,
 		YahooPlayerID: 32876,
@@ -6149,7 +6149,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/22193.png",
 		ByeWeek: 9,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 130350,
 		DraftKingsPlayerID: 877073,
 		YahooPlayerID: 33001,
@@ -7935,7 +7935,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/23164.png",
 		ByeWeek: 7,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 91635,
 		DraftKingsPlayerID: 1110686,
 		YahooPlayerID: 40326,
@@ -10215,7 +10215,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24278.png",
 		ByeWeek: 7,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 185863,
 		DraftKingsPlayerID: 1130976,
 		YahooPlayerID: 40780,
@@ -10272,7 +10272,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24301.png",
 		ByeWeek: 6,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 185893,
 		DraftKingsPlayerID: 1332909,
 		YahooPlayerID: 40734,
@@ -10291,7 +10291,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24309.png",
 		ByeWeek: 6,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 185861,
 		DraftKingsPlayerID: 1447759,
 		YahooPlayerID: 40707,
@@ -10348,7 +10348,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24341.png",
 		ByeWeek: 13,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 92256,
 		DraftKingsPlayerID: 1129513,
 		YahooPlayerID: 40308,
@@ -10500,7 +10500,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24362.png",
 		ByeWeek: 6,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 138786,
 		DraftKingsPlayerID: 1231559,
 		YahooPlayerID: 40445,
@@ -10652,7 +10652,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24459.png",
 		ByeWeek: 7,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 185862,
 		DraftKingsPlayerID: 1118734,
 		YahooPlayerID: 40773,
@@ -10671,7 +10671,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24463.png",
 		ByeWeek: 10,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 185850,
 		DraftKingsPlayerID: 1123630,
 		YahooPlayerID: 40629,
@@ -10747,7 +10747,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24533.png",
 		ByeWeek: 6,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 89185,
 		DraftKingsPlayerID: 1129452,
 		YahooPlayerID: 40335,
@@ -10804,7 +10804,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24686.png",
 		ByeWeek: 9,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 173626,
 		DraftKingsPlayerID: 1132517,
 		YahooPlayerID: 40702,
@@ -10823,7 +10823,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24709.png",
 		ByeWeek: 7,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 90353,
 		DraftKingsPlayerID: 1132122,
 		YahooPlayerID: 40728,
@@ -10842,7 +10842,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24718.png",
 		ByeWeek: 5,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 87844,
 		DraftKingsPlayerID: 1064955,
 		YahooPlayerID: 40519,
@@ -10861,7 +10861,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24755.png",
 		ByeWeek: 9,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 94363,
 		DraftKingsPlayerID: 976809,
 		YahooPlayerID: 40374,
@@ -10880,7 +10880,7 @@ export const activePlayers: Player[] = [
 		PhotoUrl:
 			"https://s3-us-west-2.amazonaws.com/static.fantasydata.com/headshots/nfl/low-res/24776.png",
 		ByeWeek: 7,
-		AverageDraftPosition: null,
+		AverageDraftPosition: 1000000,
 		FanDuelPlayerID: 94600,
 		DraftKingsPlayerID: 1113487,
 		YahooPlayerID: 40782,
