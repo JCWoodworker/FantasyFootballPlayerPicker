@@ -6,6 +6,25 @@ HUUUUUUUUUUGE ISSUE - WAY TOO MANY REQUESTS WILL COST $$$$
 	maybe arguements could include an array of ids instead of just one
 */ 
 
+	// if (detailedPlayerData) {
+
+	// 	fetchedPlayer = (
+	// 		<>
+	// 			{Object.entries(detailedPlayerData)
+	// 				.filter(
+	// 					(entry) =>
+	// 						entry[0].startsWith("Upcoming") && entry[0].endsWith("Salary")
+	// 				)
+	// 				.map((entry) => (
+	// 					<p key={entry[0]}>
+	// 						{entry[0]}: {entry[1] || "N/A"}
+	// 					</p>
+	// 				))}
+	// 		</>
+	// 	)
+	// }
+
+
 const getTeamDetails = (id: number): void => {
 	console.log(`Team ID: ${id}`)
 }
