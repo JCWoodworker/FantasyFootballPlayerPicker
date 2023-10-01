@@ -1,6 +1,6 @@
 import React from "react"
 
-const PlayerShow = ({ player, myTeamList, setMyTeamList, filterDraftedPlayers }) => {
+const PlayerShow: React.FC = ({ player, myTeamList, setMyTeamList, filterDraftedPlayers }) => {
 
 	const onButtonClick = (e) => {
 		e.preventDefault()

@@ -23,11 +23,25 @@ export const PlayersIndex: React.FC = () => {
 		)
 		setDraftedPlayers(newPlayerList)
 	}
+	const addDeletedTeammatesBackToDraftedPlayers = (deletedTeammateId) => {
+		const playerToAddBack = draftedPlayerList.find(
+			(p) => p.PlayerID == deletedTeammateId
+		)
+		const newDraftedPlayers = [...draftedPlayers, playerToAddBack]
+		const [goodPlayers, badPlayers] = sortPlayersByAverageDraftPosition(newDraftedPlayers)
+		setDraftedPlayers(goodPlayers)
+	}
 
 	return (
 		<div>
 			<div>
-				<MyTeam myTeamList={myTeamList} setMyTeamList={setMyTeamList} />
+				<MyTeam
+					myTeamList={myTeamList}
+					setMyTeamList={setMyTeamList}
+					addDeletedTeammatesBackToDraftedPlayers={
+						addDeletedTeammatesBackToDraftedPlayers
+					}
+				/>
 			</div>
 			<div>
 				<h2>Available Players</h2>
