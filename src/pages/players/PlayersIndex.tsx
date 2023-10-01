@@ -1,23 +1,48 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, lazy, Suspense } from "react"
 import { activePlayers } from "../../data/PlayerData"
 import ActivePlayer from "../../data/ActivePlayer"
 import { sortPlayersByAverageDraftPosition } from "../../utilities/sortPlayersByAverageDraftPosition"
+
+import MyTeam from "../../pages/myTeam/MyTeam"
+
+const [draftedPlayerList, undraftedPlayerList]: [
+	ActivePlayer[],
+	ActivePlayer[]
+] = sortPlayersByAverageDraftPosition(activePlayers)
+
 export const PlayersIndex: React.FC = () => {
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	const [playerList, setPlayerList] = useState<ActivePlayer[]>(
-		() => sortPlayersByAverageDraftPosition(activePlayers)
-	)
+	const [draftedPlayers, setDraftedPlayers] = useState(draftedPlayerList)
+	const [myTeamList, setMyTeamList] = useState([])
 
 	const LoadPlayer = lazy(() => import("./PlayerShow"))
 
+	const filterDraftedPlayers = (id) => {
+		const newPlayerList = draftedPlayers.filter(
+			(player) => player.PlayerID != id
+		)
+		setDraftedPlayers(newPlayerList)
+	}
+
 	return (
 		<div>
-			<h2>Players</h2>
-			<div className="players-list">
+			<div>
+				<MyTeam myTeamList={myTeamList} setMyTeamList={setMyTeamList} />
+			</div>
+			<div>
+				<h2>Available Players</h2>
 				<Suspense fallback={<div>Loading Players...</div>}>
-					{playerList.map((player) => (
-						<LoadPlayer key={player.PlayerID} player={player} />
-					))}
+					<div className="players-list">
+						{draftedPlayers.map((player) => (
+							<LoadPlayer
+								key={player.PlayerID}
+								player={player}
+								myTeamList={myTeamList}
+								setMyTeamList={setMyTeamList}
+								filterDraftedPlayers={filterDraftedPlayers}
+							/>
+						))}
+					</div>
 				</Suspense>
 			</div>
 		</div>

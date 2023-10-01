@@ -1,11 +1,12 @@
 import React from "react"
 
-const PlayerShow = ({ player }) => {
-	// const onButtonClick = async () => {
-	// 	setClickedButton(() => true)
-	// 	const playerData = await getDetails("player", player.PlayerID)
-	// 	setDetailedPlayerData(playerData)
-	// }
+const PlayerShow = ({ player, myTeamList, setMyTeamList, filterDraftedPlayers }) => {
+
+	const onButtonClick = (e) => {
+		e.preventDefault()
+		filterDraftedPlayers(e.target.id)
+		setMyTeamList([...myTeamList, { ...player }])
+	}
 
 	const showDetails = (
 		<>
@@ -16,9 +17,9 @@ const PlayerShow = ({ player }) => {
 					<span id="team">{player.Team}</span> - {player.FantasyPosition}
 				</p>
 			</div>
-			{/* <button>
+			<button onClick={onButtonClick} id={player.PlayerID} value={player}>
 				+
-			</button> */}
+			</button>
 		</>
 	)
 
