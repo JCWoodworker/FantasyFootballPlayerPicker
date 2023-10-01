@@ -11,7 +11,7 @@ export const MyTeamPlayerShow: React.FC = ({
 		<div key={player.PlayerID} className="my-team-player">
 			<div>{player.FullName}</div>
 			<button onClick={onButtonClick} id={player.PlayerID}>
-				Delete Player
+				-
 			</button>
 		</div>
 	)
