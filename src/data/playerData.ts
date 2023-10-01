@@ -1,4 +1,4 @@
-export interface PlayerInterface {
+export interface ActivePlayer {
 	PlayerID: number
 		Team: string
 		TeamID: number
