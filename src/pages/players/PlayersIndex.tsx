@@ -24,8 +24,6 @@ export const PlayersIndex: React.FC = () => {
 		if (myTeamList.length > 0 && draftedPlayerList.length > 0) {
 			const newDraftedPlayersList = removeElementsById(myTeamList, draftedPlayers)
 			setDraftedPlayers(newDraftedPlayersList)
-		} else {
-			console.log(`you don't have a team`)
 		}
 	}, [])
 

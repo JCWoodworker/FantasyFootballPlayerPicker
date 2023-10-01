@@ -1,7 +1,11 @@
 import React from "react"
 
-const PlayerShow: React.FC = ({ player, myTeamList, setMyTeamList, filterDraftedPlayers }) => {
-
+const PlayerShow: React.FC = ({
+	player,
+	myTeamList,
+	setMyTeamList,
+	filterDraftedPlayers,
+}) => {
 	const onButtonClick = (e) => {
 		e.preventDefault()
 		filterDraftedPlayers(e.target.id)

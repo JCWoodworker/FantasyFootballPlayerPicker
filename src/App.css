@@ -46,6 +46,25 @@ img {
   padding: 0;
 }
 
+.teammates-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem
+}
+
+.teammate-show {
+  padding: 0.2rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
 #team {
   color: yellow;
 }
@@ -69,10 +88,3 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.my-team-player {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}

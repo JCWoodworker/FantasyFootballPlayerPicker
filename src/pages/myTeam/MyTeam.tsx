@@ -1,7 +1,11 @@
 import React from "react"
 import MyTeamPlayerShow from "./MyTeamPlayerShow"
 
-export const MyTeam: React.FC = ({ myTeamList, setMyTeamList, addDeletedTeammatesBackToDraftedPlayers }) => {
+export const MyTeam: React.FC = ({
+	myTeamList,
+	setMyTeamList,
+	addDeletedTeammatesBackToDraftedPlayers,
+}) => {
 	const onButtonClick = (e) => {
 		e.preventDefault()
 		addDeletedTeammatesBackToDraftedPlayers(e.target.id)
@@ -9,18 +13,20 @@ export const MyTeam: React.FC = ({ myTeamList, setMyTeamList, addDeletedTeammate
 	}
 
 	return (
-		<div>
+		<>
 			<h2>My Team</h2>
-			{myTeamList.map((player) => (
-				<MyTeamPlayerShow
-					key={player.YahooPlayerID}
-					player={player}
-					myTeamList={myTeamList}
-					setMyTeamList={setMyTeamList}
-					onButtonClick={onButtonClick}
-				/>
-			))}
-		</div>
+			<div className="teammates-list">
+				{myTeamList.map((player) => (
+					<MyTeamPlayerShow
+						key={player.YahooPlayerID}
+						player={player}
+						myTeamList={myTeamList}
+						setMyTeamList={setMyTeamList}
+						onButtonClick={onButtonClick}
+					/>
+				))}
+			</div>
+		</>
 	)
 }
 

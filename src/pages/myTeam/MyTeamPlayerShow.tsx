@@ -7,12 +7,18 @@ export const MyTeamPlayerShow: React.FC = ({
 	setMyTeamList,
 	onButtonClick,
 }) => {
-	return (
-		<div key={player.PlayerID} className="my-team-player">
-			<div>{player.FullName}</div>
+	const showDetails = (
+		<>
+			<img className="player-photo" src={`${player.PhotoUrl}`}></img>
+			<p>{player.LastName}</p>
 			<button onClick={onButtonClick} id={player.PlayerID}>
 				-
 			</button>
+		</>
+	)
+	return (
+		<div key={player.PlayerID} className="teammate-show">
+			{showDetails}
 		</div>
 	)
 }
