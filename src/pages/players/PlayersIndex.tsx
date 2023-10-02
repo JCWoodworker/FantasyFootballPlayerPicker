@@ -15,6 +15,7 @@ export const PlayersIndex: React.FC = () => {
 	const [myTeamList, setMyTeamList] = useState(
 		JSON.parse(window.localStorage.getItem("myFantasyTeam")) ?? []
 	)
+	const [searchText, setSearchText] = useState("")
 
 	useEffect(() => {
 		window.localStorage.setItem("myFantasyTeam", JSON.stringify(myTeamList))
@@ -49,8 +50,9 @@ export const PlayersIndex: React.FC = () => {
 
 	const onSearchChange = (e) => {
 		e.preventDefault()
+		setSearchText(() => e.target.value.toLowerCase())
 		const filteredDraftedPlayers = draftedPlayerList.filter((player) =>
-			player.FullName.toLowerCase().includes(e.target.value)
+			player.FullName.toLowerCase().includes(searchText)
 		)
 		setDraftedPlayers(filteredDraftedPlayers)
 	}
@@ -68,7 +70,7 @@ export const PlayersIndex: React.FC = () => {
 			</div>
 			<div>
 				<h2>Available Players</h2>
-				<input type="text" placeholder="Search" onChange={onSearchChange} />
+				<input type="text" placeholder="Search" onChange={onSearchChange} value={searchText}/>
 				<div className="players-list">
 					{draftedPlayers.map((player) => (
 						<PlayerShow
