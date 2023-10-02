@@ -4,11 +4,9 @@ import MyTeamPlayerShow from "./MyTeamPlayerShow"
 export const MyTeam: React.FC = ({
 	myTeamList,
 	setMyTeamList,
-	addDeletedTeammatesBackToDraftedPlayers,
 }) => {
 	const onButtonClick = (e) => {
 		e.preventDefault()
-		addDeletedTeammatesBackToDraftedPlayers(e.target.id)
 		setMyTeamList(myTeamList.filter((player) => player.PlayerID != e.target.id))
 	}
 

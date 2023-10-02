@@ -4,12 +4,15 @@ const PlayerShow: React.FC = ({
 	player,
 	myTeamList,
 	setMyTeamList,
-	filterDraftedPlayers,
 }) => {
 	const onButtonClick = (e) => {
 		e.preventDefault()
-		filterDraftedPlayers(e.target.id)
-		setMyTeamList([...myTeamList, { ...player }])
+		if (myTeamList.filter((player) => player.PlayerID == e.target.id).length == 0) {
+			setMyTeamList([...myTeamList, { ...player }])
+		}
+		else {
+			alert("Player already in your team")
+		}
 	}
 
 	const showDetails = (

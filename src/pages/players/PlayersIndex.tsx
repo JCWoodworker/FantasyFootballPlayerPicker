@@ -21,25 +21,6 @@ export const PlayersIndex: React.FC = () => {
 		window.localStorage.setItem("myFantasyTeam", JSON.stringify(myTeamList))
 	}, [myTeamList])
 
-	const filterDraftedPlayers = (id) => {
-		const newPlayerList = draftedPlayers.filter(
-			(player) => player.PlayerID != id
-		)
-		setDraftedPlayers(newPlayerList)
-	}
-	const addDeletedTeammatesBackToDraftedPlayers = (deletedTeammateId) => {
-		if (draftedPlayers.find((player) => player.PlayerID == deletedTeammateId)) {
-			return
-		}
-		const playerToAddBack = draftedPlayerList.find(
-			(p) => p.PlayerID == deletedTeammateId
-		)
-		const newDraftedPlayers = sortPlayersByAverageDraftPosition([
-			...draftedPlayers,
-			playerToAddBack,
-		])
-		setDraftedPlayers(newDraftedPlayers)
-	}
 
 	const onSearchChange = (e) => {
 		e.preventDefault()
@@ -64,9 +45,6 @@ export const PlayersIndex: React.FC = () => {
 				<MyTeam
 					myTeamList={myTeamList}
 					setMyTeamList={setMyTeamList}
-					addDeletedTeammatesBackToDraftedPlayers={
-						addDeletedTeammatesBackToDraftedPlayers
-					}
 				/>
 			</div>
 			<div>
@@ -86,7 +64,6 @@ export const PlayersIndex: React.FC = () => {
 							player={player}
 							myTeamList={myTeamList}
 							setMyTeamList={setMyTeamList}
-							filterDraftedPlayers={filterDraftedPlayers}
 						/>
 					))}
 				</div>
