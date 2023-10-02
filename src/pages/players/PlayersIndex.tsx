@@ -26,7 +26,7 @@ export const PlayersIndex: React.FC = () => {
 			const newDraftedPlayersList = removeElementsById(myTeamList, draftedPlayers)
 			setDraftedPlayers(newDraftedPlayersList)
 		}
-	}, [])
+	}, [myTeamList, draftedPlayers])
 
 	const filterDraftedPlayers = (id) => {
 		const newPlayerList = draftedPlayers.filter(
