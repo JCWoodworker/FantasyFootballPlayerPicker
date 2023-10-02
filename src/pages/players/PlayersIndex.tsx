@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
 import { activePlayers } from "../../data/PlayerData"
-import ActivePlayer from "../../data/ActivePlayer"
 import { sortPlayersByAverageDraftPosition } from "../../utilities/sortPlayersByAverageDraftPosition"
-import {removeElementsById} from "../../utilities/removeElementsById"
 
-import MyTeam from "../../pages/myTeam/MyTeam"
+import ActivePlayer from "../../data/ActivePlayer"
+
+import MyTeam from "../../pages/my_team/MyTeam"
 import PlayerShow from "../../pages/players/PlayerShow"
 
 const draftedPlayerList: ActivePlayer[] =
@@ -20,13 +20,6 @@ export const PlayersIndex: React.FC = () => {
 	useEffect(() => {
 		window.localStorage.setItem("myFantasyTeam", JSON.stringify(myTeamList))
 	}, [myTeamList])
-
-	useEffect(() => {
-		if (myTeamList.length > 0 && draftedPlayerList.length > 0) {
-			const newDraftedPlayersList = removeElementsById(myTeamList, draftedPlayers)
-			setDraftedPlayers(newDraftedPlayersList)
-		}
-	}, [myTeamList, draftedPlayers])
 
 	const filterDraftedPlayers = (id) => {
 		const newPlayerList = draftedPlayers.filter(
@@ -57,6 +50,14 @@ export const PlayersIndex: React.FC = () => {
 		setDraftedPlayers(filteredDraftedPlayers)
 	}
 
+	const selectOptions = [
+		"All",
+		"QB",
+		"RB",
+		"WR",
+		"TE"
+	]
+
 	return (
 		<div>
 			<div>
@@ -70,6 +71,13 @@ export const PlayersIndex: React.FC = () => {
 			</div>
 			<div>
 				<h2>Available Players</h2>
+				<select>
+					{selectOptions.map((option) => (
+						<option key={option} value={option}>
+							{option}
+						</option>
+					))}
+				</select>
 				<input type="text" placeholder="Search" onChange={onSearchChange} value={searchText}/>
 				<div className="players-list">
 					{draftedPlayers.map((player) => (
