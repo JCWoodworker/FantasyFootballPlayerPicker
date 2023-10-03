@@ -15,6 +15,7 @@ export interface ActivePlayer {
 		DraftKingsPlayerID: number
 		YahooPlayerID: number
 		FantasyPositionDepthOrder: number
+		selectedForMyTeam: boolean
 }
 
 export const activePlayers: Player[] = [
@@ -36,6 +37,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 213957,
 		YahooPlayerID: 7200,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 3061,
@@ -55,6 +57,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 214197,
 		YahooPlayerID: 7777,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 7651,
@@ -74,6 +77,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 234403,
 		YahooPlayerID: 8930,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 8358,
@@ -93,6 +97,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 264725,
 		YahooPlayerID: 9547,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 9038,
@@ -112,6 +117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 323205,
 		YahooPlayerID: 9265,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 11488,
@@ -131,6 +137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 295918,
 		YahooPlayerID: 24070,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 12831,
@@ -150,6 +157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 399579,
 		YahooPlayerID: 24967,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 12841,
@@ -169,6 +177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 322858,
 		YahooPlayerID: 24822,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 12982,
@@ -188,6 +197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 463393,
 		YahooPlayerID: 24797,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 13227,
@@ -207,6 +217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 465949,
 		YahooPlayerID: 24851,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 13741,
@@ -226,6 +237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 465752,
 		YahooPlayerID: 26389,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 13799,
@@ -245,6 +257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 380960,
 		YahooPlayerID: 25718,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 13870,
@@ -264,6 +277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 461620,
 		YahooPlayerID: 25876,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14141,
@@ -283,6 +297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 460830,
 		YahooPlayerID: 26060,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14252,
@@ -302,6 +317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 403308,
 		YahooPlayerID: 25812,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14536,
@@ -321,6 +337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 401534,
 		YahooPlayerID: 25785,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14856,
@@ -340,6 +357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 503177,
 		YahooPlayerID: 26658,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14865,
@@ -359,6 +377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 507478,
 		YahooPlayerID: 26701,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14871,
@@ -378,6 +397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 555693,
 		YahooPlayerID: 26664,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14895,
@@ -397,6 +417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 513856,
 		YahooPlayerID: 26662,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14901,
@@ -416,6 +437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 501150,
 		YahooPlayerID: 26753,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 14986,
@@ -435,6 +457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 560241,
 		YahooPlayerID: 26650,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 15048,
@@ -454,6 +477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 448240,
 		YahooPlayerID: 26686,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 15071,
@@ -473,6 +497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 467405,
 		YahooPlayerID: 26804,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 15076,
@@ -492,6 +517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 557210,
 		YahooPlayerID: 26699,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 15150,
@@ -511,6 +537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 690153,
 		YahooPlayerID: 26652,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 15534,
@@ -530,6 +557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 733643,
 		YahooPlayerID: 27277,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 15694,
@@ -549,6 +577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 338280,
 		YahooPlayerID: 26483,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16041,
@@ -568,6 +597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 555358,
 		YahooPlayerID: 27590,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16263,
@@ -587,6 +617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 609496,
 		YahooPlayerID: 27589,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16311,
@@ -606,6 +637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 496083,
 		YahooPlayerID: 27564,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16378,
@@ -625,6 +657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 558973,
 		YahooPlayerID: 28141,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16389,
@@ -644,6 +677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 589984,
 		YahooPlayerID: 27540,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16470,
@@ -663,6 +697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 611417,
 		YahooPlayerID: 27581,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16497,
@@ -682,6 +717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 592195,
 		YahooPlayerID: 27560,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16510,
@@ -701,6 +737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 563824,
 		YahooPlayerID: 27624,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16568,
@@ -720,6 +757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 607864,
 		YahooPlayerID: 27548,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16597,
@@ -739,6 +777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 593587,
 		YahooPlayerID: 27535,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16656,
@@ -758,6 +797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 507528,
 		YahooPlayerID: 27648,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16762,
@@ -777,6 +817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 691536,
 		YahooPlayerID: 28389,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16763,
@@ -796,6 +837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 607843,
 		YahooPlayerID: 28390,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16765,
@@ -815,6 +857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 650914,
 		YahooPlayerID: 28392,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16775,
@@ -834,6 +877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 602241,
 		YahooPlayerID: 28402,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16776,
@@ -853,6 +897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 606516,
 		YahooPlayerID: 28403,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16781,
@@ -872,6 +917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 691055,
 		YahooPlayerID: 28408,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16815,
@@ -891,6 +937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 590796,
 		YahooPlayerID: 28442,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16830,
@@ -910,6 +957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 605242,
 		YahooPlayerID: 28457,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16846,
@@ -929,6 +977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 592268,
 		YahooPlayerID: 28473,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16855,
@@ -948,6 +997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 598969,
 		YahooPlayerID: 28482,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16866,
@@ -967,6 +1017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 599649,
 		YahooPlayerID: 28493,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16878,
@@ -986,6 +1037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 542871,
 		YahooPlayerID: 28505,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16903,
@@ -1005,6 +1057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 552586,
 		YahooPlayerID: 28531,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16906,
@@ -1024,6 +1077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 694041,
 		YahooPlayerID: 28534,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16917,
@@ -1043,6 +1097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 593305,
 		YahooPlayerID: 28545,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16928,
@@ -1062,6 +1117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 556483,
 		YahooPlayerID: 28556,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 16964,
@@ -1081,6 +1137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 600191,
 		YahooPlayerID: 28592,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17005,
@@ -1100,6 +1157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 728021,
 		YahooPlayerID: 28634,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17179,
@@ -1119,6 +1177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 599113,
 		YahooPlayerID: 28839,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17217,
@@ -1138,6 +1197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 606501,
 		YahooPlayerID: 28654,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17218,
@@ -1157,6 +1217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 612512,
 		YahooPlayerID: 28947,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17762,
@@ -1176,6 +1237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 563293,
 		YahooPlayerID: 28365,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17922,
@@ -1195,6 +1257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 727837,
 		YahooPlayerID: 29235,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17923,
@@ -1214,6 +1277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 728338,
 		YahooPlayerID: 29238,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17959,
@@ -1233,6 +1297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 732145,
 		YahooPlayerID: 29279,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17960,
@@ -1252,6 +1317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 653699,
 		YahooPlayerID: 29281,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17961,
@@ -1271,6 +1337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 691278,
 		YahooPlayerID: 29274,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17963,
@@ -1290,6 +1357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 739424,
 		YahooPlayerID: 29315,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17975,
@@ -1309,6 +1377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 744425,
 		YahooPlayerID: 29269,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 17986,
@@ -1328,6 +1397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 742387,
 		YahooPlayerID: 29288,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18003,
@@ -1347,6 +1417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 694588,
 		YahooPlayerID: 29307,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18018,
@@ -1366,6 +1437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 607047,
 		YahooPlayerID: 29325,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18030,
@@ -1385,6 +1457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 606551,
 		YahooPlayerID: 29341,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18032,
@@ -1404,6 +1477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 604176,
 		YahooPlayerID: 29344,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18047,
@@ -1423,6 +1497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 727279,
 		YahooPlayerID: 29360,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18055,
@@ -1442,6 +1517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 591816,
 		YahooPlayerID: 29369,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18082,
@@ -1461,6 +1537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 823156,
 		YahooPlayerID: 29399,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18103,
@@ -1480,6 +1557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 605325,
 		YahooPlayerID: 29420,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18104,
@@ -1499,6 +1577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 696112,
 		YahooPlayerID: 29421,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18118,
@@ -1518,6 +1597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 604390,
 		YahooPlayerID: 29435,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18152,
@@ -1537,6 +1617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 714230,
 		YahooPlayerID: 29470,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18187,
@@ -1556,6 +1637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 608360,
 		YahooPlayerID: 29785,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18422,
@@ -1575,6 +1657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 692660,
 		YahooPlayerID: 29631,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18652,
@@ -1594,6 +1677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 915397,
 		YahooPlayerID: 29951,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18811,
@@ -1613,6 +1697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 728169,
 		YahooPlayerID: 30115,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18857,
@@ -1632,6 +1717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 828743,
 		YahooPlayerID: 30125,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18858,
@@ -1651,6 +1737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820727,
 		YahooPlayerID: 30161,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18872,
@@ -1670,6 +1757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 824080,
 		YahooPlayerID: 30154,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18876,
@@ -1689,6 +1777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 832098,
 		YahooPlayerID: 30142,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18877,
@@ -1708,6 +1797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 830517,
 		YahooPlayerID: 30121,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18878,
@@ -1727,6 +1817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 750846,
 		YahooPlayerID: 30180,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18880,
@@ -1746,6 +1837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 835127,
 		YahooPlayerID: 30197,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18882,
@@ -1765,6 +1857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 698227,
 		YahooPlayerID: 30182,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18883,
@@ -1784,6 +1877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 835909,
 		YahooPlayerID: 30175,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18890,
@@ -1803,6 +1897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 839031,
 		YahooPlayerID: 30123,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18900,
@@ -1822,6 +1917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 712506,
 		YahooPlayerID: 30112,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18912,
@@ -1841,6 +1937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 749185,
 		YahooPlayerID: 30136,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18914,
@@ -1860,6 +1957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 733754,
 		YahooPlayerID: 30120,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18926,
@@ -1879,6 +1977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 746491,
 		YahooPlayerID: 30150,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18928,
@@ -1898,6 +1997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 821389,
 		YahooPlayerID: 30153,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18935,
@@ -1917,6 +2017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 838487,
 		YahooPlayerID: 30157,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18944,
@@ -1936,6 +2037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 746613,
 		YahooPlayerID: 30199,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18957,
@@ -1955,6 +2057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 835443,
 		YahooPlayerID: 30202,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18973,
@@ -1974,6 +2077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 691784,
 		YahooPlayerID: 30217,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18983,
@@ -1993,6 +2097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 742390,
 		YahooPlayerID: 30218,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18990,
@@ -2012,6 +2117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 743749,
 		YahooPlayerID: 30213,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18993,
@@ -2031,6 +2137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820734,
 		YahooPlayerID: 30227,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18995,
@@ -2050,6 +2157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 695311,
 		YahooPlayerID: 30247,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 18998,
@@ -2069,6 +2177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 840760,
 		YahooPlayerID: 30256,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19017,
@@ -2088,6 +2197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 822367,
 		YahooPlayerID: 30230,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19023,
@@ -2107,6 +2217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 702808,
 		YahooPlayerID: 30231,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19025,
@@ -2126,6 +2237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 741262,
 		YahooPlayerID: 30248,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19029,
@@ -2145,6 +2257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 650974,
 		YahooPlayerID: 30284,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19043,
@@ -2164,6 +2277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 823040,
 		YahooPlayerID: 30285,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19044,
@@ -2183,6 +2297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 752646,
 		YahooPlayerID: 30278,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19045,
@@ -2202,6 +2317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 741314,
 		YahooPlayerID: 30295,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19063,
@@ -2221,6 +2337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 733672,
 		YahooPlayerID: 30259,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19064,
@@ -2240,6 +2357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 733849,
 		YahooPlayerID: 30290,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19072,
@@ -2259,6 +2377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1049905,
 		YahooPlayerID: 30305,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19080,
@@ -2278,6 +2397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836103,
 		YahooPlayerID: 30352,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19165,
@@ -2297,6 +2417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 740704,
 		YahooPlayerID: 30373,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19172,
@@ -2316,6 +2437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 658447,
 		YahooPlayerID: 30502,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19207,
@@ -2335,6 +2457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 838179,
 		YahooPlayerID: 30511,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19209,
@@ -2354,6 +2477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 658389,
 		YahooPlayerID: 30592,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19238,
@@ -2373,6 +2497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 503184,
 		YahooPlayerID: 30614,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19304,
@@ -2392,6 +2517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 689689,
 		YahooPlayerID: 30627,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19318,
@@ -2411,6 +2537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 754412,
 		YahooPlayerID: 30551,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19319,
@@ -2430,6 +2557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 750097,
 		YahooPlayerID: 30552,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19330,
@@ -2449,6 +2577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 748309,
 		YahooPlayerID: 30563,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19461,
@@ -2468,6 +2597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 694117,
 		YahooPlayerID: 30788,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19491,
@@ -2487,6 +2617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 660151,
 		YahooPlayerID: 30777,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19562,
@@ -2506,6 +2637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 790004,
 		YahooPlayerID: 30423,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19626,
@@ -2525,6 +2657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 703015,
 		YahooPlayerID: 30860,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19755,
@@ -2544,6 +2677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 749681,
 		YahooPlayerID: 30955,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19766,
@@ -2563,6 +2697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 883302,
 		YahooPlayerID: 30972,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19781,
@@ -2582,6 +2717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 877745,
 		YahooPlayerID: 31002,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19790,
@@ -2601,6 +2737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 748070,
 		YahooPlayerID: 30971,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19798,
@@ -2620,6 +2757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 822857,
 		YahooPlayerID: 31005,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19799,
@@ -2639,6 +2777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 840691,
 		YahooPlayerID: 30997,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19800,
@@ -2658,6 +2797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 838878,
 		YahooPlayerID: 31010,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19801,
@@ -2677,6 +2817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 868199,
 		YahooPlayerID: 30977,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19802,
@@ -2696,6 +2837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884013,
 		YahooPlayerID: 30996,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19803,
@@ -2715,6 +2857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820699,
 		YahooPlayerID: 31056,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19812,
@@ -2734,6 +2877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880026,
 		YahooPlayerID: 30973,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19815,
@@ -2753,6 +2897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 865801,
 		YahooPlayerID: 31017,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19816,
@@ -2772,6 +2917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 822008,
 		YahooPlayerID: 31031,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19843,
@@ -2791,6 +2937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 881956,
 		YahooPlayerID: 30995,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19844,
@@ -2810,6 +2957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 877790,
 		YahooPlayerID: 30994,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19850,
@@ -2829,6 +2977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 823220,
 		YahooPlayerID: 31046,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19853,
@@ -2848,6 +2997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836152,
 		YahooPlayerID: 31012,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19863,
@@ -2867,6 +3017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 791365,
 		YahooPlayerID: 31019,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19867,
@@ -2886,6 +3037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 912070,
 		YahooPlayerID: 31051,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19897,
@@ -2905,6 +3057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 838415,
 		YahooPlayerID: 31061,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19903,
@@ -2924,6 +3077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 838396,
 		YahooPlayerID: 31068,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19910,
@@ -2943,6 +3097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 943093,
 		YahooPlayerID: 31071,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19912,
@@ -2962,6 +3117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880146,
 		YahooPlayerID: 31074,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19919,
@@ -2981,6 +3137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 832900,
 		YahooPlayerID: 31104,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19920,
@@ -3000,6 +3157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 830523,
 		YahooPlayerID: 31107,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19922,
@@ -3019,6 +3177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 832220,
 		YahooPlayerID: 31114,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19943,
@@ -3038,6 +3197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 749968,
 		YahooPlayerID: 31093,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19950,
@@ -3057,6 +3217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 837806,
 		YahooPlayerID: 31090,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19961,
@@ -3076,6 +3237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 867759,
 		YahooPlayerID: 31157,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19972,
@@ -3095,6 +3257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 741785,
 		YahooPlayerID: 31141,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19976,
@@ -3114,6 +3277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 742382,
 		YahooPlayerID: 31144,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 19988,
@@ -3133,6 +3297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 861278,
 		YahooPlayerID: 31127,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20006,
@@ -3152,6 +3317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 822014,
 		YahooPlayerID: 31164,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20013,
@@ -3171,6 +3337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 912061,
 		YahooPlayerID: 31178,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20018,
@@ -3190,6 +3357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 823811,
 		YahooPlayerID: 31207,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20038,
@@ -3209,6 +3377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820866,
 		YahooPlayerID: 31180,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20039,
@@ -3228,6 +3397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 749635,
 		YahooPlayerID: 31171,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20053,
@@ -3247,6 +3417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 822350,
 		YahooPlayerID: 31301,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20055,
@@ -3266,6 +3437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 732107,
 		YahooPlayerID: 31219,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20071,
@@ -3285,6 +3457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 746244,
 		YahooPlayerID: 31517,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20074,
@@ -3304,6 +3477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836140,
 		YahooPlayerID: 31480,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20077,
@@ -3323,6 +3497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 822644,
 		YahooPlayerID: 31210,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20081,
@@ -3342,6 +3517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 835861,
 		YahooPlayerID: 31320,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20145,
@@ -3361,6 +3537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 837958,
 		YahooPlayerID: 31268,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20150,
@@ -3380,6 +3557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 913826,
 		YahooPlayerID: 31496,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20159,
@@ -3399,6 +3577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 842181,
 		YahooPlayerID: 31228,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20191,
@@ -3418,6 +3597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 742451,
 		YahooPlayerID: 31258,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20199,
@@ -3437,6 +3617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 746301,
 		YahooPlayerID: 31283,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20239,
@@ -3456,6 +3637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 739799,
 		YahooPlayerID: 31424,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20283,
@@ -3475,6 +3657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 741447,
 		YahooPlayerID: 31431,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20360,
@@ -3494,6 +3677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 834195,
 		YahooPlayerID: 31394,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20361,
@@ -3513,6 +3697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 752665,
 		YahooPlayerID: 31329,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20398,
@@ -3532,6 +3717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884601,
 		YahooPlayerID: 31177,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20487,
@@ -3551,6 +3737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820435,
 		YahooPlayerID: 31641,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20679,
@@ -3570,6 +3757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 757521,
 		YahooPlayerID: 31769,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20753,
@@ -3589,6 +3777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 923911,
 		YahooPlayerID: 31852,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20768,
@@ -3608,6 +3797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 865895,
 		YahooPlayerID: 32066,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20779,
@@ -3627,6 +3817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820423,
 		YahooPlayerID: 31932,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20788,
@@ -3646,6 +3837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 922026,
 		YahooPlayerID: 31888,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20790,
@@ -3665,6 +3857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884014,
 		YahooPlayerID: 31919,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20793,
@@ -3684,6 +3877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 878935,
 		YahooPlayerID: 32293,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20802,
@@ -3703,6 +3897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 923109,
 		YahooPlayerID: 31945,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20805,
@@ -3722,6 +3917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 923915,
 		YahooPlayerID: 31840,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20810,
@@ -3741,6 +3937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 922484,
 		YahooPlayerID: 32036,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20812,
@@ -3760,6 +3957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 881708,
 		YahooPlayerID: 32576,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20816,
@@ -3779,6 +3977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 920758,
 		YahooPlayerID: 32494,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20819,
@@ -3798,6 +3997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880322,
 		YahooPlayerID: 32344,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20824,
@@ -3817,6 +4017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944416,
 		YahooPlayerID: 31856,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20841,
@@ -3836,6 +4037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 879981,
 		YahooPlayerID: 31838,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20850,
@@ -3855,6 +4057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884083,
 		YahooPlayerID: 31928,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20859,
@@ -3874,6 +4077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 882345,
 		YahooPlayerID: 31874,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20868,
@@ -3893,6 +4097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944343,
 		YahooPlayerID: 31934,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20873,
@@ -3912,6 +4117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836116,
 		YahooPlayerID: 31908,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20875,
@@ -3931,6 +4137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 945633,
 		YahooPlayerID: 31896,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20876,
@@ -3950,6 +4157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880151,
 		YahooPlayerID: 32231,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20880,
@@ -3969,6 +4177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 867303,
 		YahooPlayerID: 32010,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20882,
@@ -3988,6 +4197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 946739,
 		YahooPlayerID: 31905,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20884,
@@ -4007,6 +4217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 865573,
 		YahooPlayerID: 31969,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20889,
@@ -4026,6 +4237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 879799,
 		YahooPlayerID: 31833,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20899,
@@ -4045,6 +4257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 881779,
 		YahooPlayerID: 31901,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20900,
@@ -4064,6 +4277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 832473,
 		YahooPlayerID: 31984,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20905,
@@ -4083,6 +4297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 875649,
 		YahooPlayerID: 32456,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20912,
@@ -4102,6 +4317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880398,
 		YahooPlayerID: 31960,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20924,
@@ -4121,6 +4337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 841649,
 		YahooPlayerID: 31981,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20929,
@@ -4140,6 +4357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 866216,
 		YahooPlayerID: 32221,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20931,
@@ -4159,6 +4377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 837824,
 		YahooPlayerID: 31884,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20932,
@@ -4178,6 +4397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 835749,
 		YahooPlayerID: 31868,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20933,
@@ -4197,6 +4417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 924261,
 		YahooPlayerID: 31885,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20941,
@@ -4216,6 +4437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 916466,
 		YahooPlayerID: 31906,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20943,
@@ -4235,6 +4457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880557,
 		YahooPlayerID: 32003,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20946,
@@ -4254,6 +4477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 924018,
 		YahooPlayerID: 32008,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20949,
@@ -4273,6 +4497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944428,
 		YahooPlayerID: 31882,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20953,
@@ -4292,6 +4517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 831007,
 		YahooPlayerID: 31998,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20954,
@@ -4311,6 +4537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 865868,
 		YahooPlayerID: 31965,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20957,
@@ -4330,6 +4557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836094,
 		YahooPlayerID: 32060,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20963,
@@ -4349,6 +4577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 833514,
 		YahooPlayerID: 32367,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20977,
@@ -4368,6 +4597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 919456,
 		YahooPlayerID: 31953,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 20990,
@@ -4387,6 +4617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 910605,
 		YahooPlayerID: 32014,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21005,
@@ -4406,6 +4637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836104,
 		YahooPlayerID: 31891,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21037,
@@ -4425,6 +4657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884553,
 		YahooPlayerID: 31925,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21042,
@@ -4444,6 +4677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944826,
 		YahooPlayerID: 31883,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21045,
@@ -4463,6 +4697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976220,
 		YahooPlayerID: 31857,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21046,
@@ -4482,6 +4717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 865844,
 		YahooPlayerID: 32138,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21071,
@@ -4501,6 +4737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 910852,
 		YahooPlayerID: 32523,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21077,
@@ -4520,6 +4757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 891115,
 		YahooPlayerID: 31898,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21100,
@@ -4539,6 +4777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 820601,
 		YahooPlayerID: 31826,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21115,
@@ -4558,6 +4797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 836079,
 		YahooPlayerID: 32019,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21138,
@@ -4577,6 +4817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 866578,
 		YahooPlayerID: 32040,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21142,
@@ -4596,6 +4837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 883976,
 		YahooPlayerID: 32123,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21163,
@@ -4615,6 +4857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1166545,
 		YahooPlayerID: 32398,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21227,
@@ -4634,6 +4877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 824428,
 		YahooPlayerID: 32225,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21263,
@@ -4653,6 +4897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884943,
 		YahooPlayerID: 32438,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21310,
@@ -4672,6 +4917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 835845,
 		YahooPlayerID: 32140,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21349,
@@ -4691,6 +4937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1166036,
 		YahooPlayerID: 32292,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21383,
@@ -4710,6 +4957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1167484,
 		YahooPlayerID: 32600,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21448,
@@ -4729,6 +4977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884567,
 		YahooPlayerID: 32201,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21514,
@@ -4748,6 +4997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 839390,
 		YahooPlayerID: 32383,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21531,
@@ -4767,6 +5017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 838318,
 		YahooPlayerID: 32442,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21564,
@@ -4786,6 +5037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1167356,
 		YahooPlayerID: 32596,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21593,
@@ -4805,6 +5057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 839043,
 		YahooPlayerID: 32608,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21601,
@@ -4824,6 +5077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1168410,
 		YahooPlayerID: 32612,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21674,
@@ -4843,6 +5097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976513,
 		YahooPlayerID: 32725,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21677,
@@ -4862,6 +5117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 973947,
 		YahooPlayerID: 32675,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21678,
@@ -4881,6 +5137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880294,
 		YahooPlayerID: 32806,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21679,
@@ -4900,6 +5157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1062020,
 		YahooPlayerID: 32687,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21681,
@@ -4919,6 +5177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 910562,
 		YahooPlayerID: 32676,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21682,
@@ -4938,6 +5197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1065406,
 		YahooPlayerID: 32711,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21684,
@@ -4957,6 +5217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1069808,
 		YahooPlayerID: 32705,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21685,
@@ -4976,6 +5237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1069535,
 		YahooPlayerID: 32692,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21687,
@@ -4995,6 +5257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1060262,
 		YahooPlayerID: 33398,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21688,
@@ -5014,6 +5277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976251,
 		YahooPlayerID: 32722,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21690,
@@ -5033,6 +5297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 978579,
 		YahooPlayerID: 32703,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21691,
@@ -5052,6 +5317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1062047,
 		YahooPlayerID: 33514,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21692,
@@ -5071,6 +5337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 973935,
 		YahooPlayerID: 32685,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21693,
@@ -5090,6 +5357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 878785,
 		YahooPlayerID: 32671,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21696,
@@ -5109,6 +5377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 978577,
 		YahooPlayerID: 33413,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21697,
@@ -5128,6 +5397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1061929,
 		YahooPlayerID: 32712,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21714,
@@ -5147,6 +5417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 881058,
 		YahooPlayerID: 32846,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21717,
@@ -5166,6 +5437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 867009,
 		YahooPlayerID: 32887,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21721,
@@ -5185,6 +5457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 920756,
 		YahooPlayerID: 32762,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21725,
@@ -5204,6 +5477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 943189,
 		YahooPlayerID: 33253,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21728,
@@ -5223,6 +5497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 880123,
 		YahooPlayerID: 33329,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21732,
@@ -5242,6 +5517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 885940,
 		YahooPlayerID: 33151,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21734,
@@ -5261,6 +5537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 883259,
 		YahooPlayerID: 33348,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21735,
@@ -5280,6 +5557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976761,
 		YahooPlayerID: 32798,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21738,
@@ -5299,6 +5577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884609,
 		YahooPlayerID: 33113,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21739,
@@ -5318,6 +5597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 884080,
 		YahooPlayerID: 32727,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21743,
@@ -5337,6 +5617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1071826,
 		YahooPlayerID: 32750,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21744,
@@ -5356,6 +5637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 911348,
 		YahooPlayerID: 32704,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21747,
@@ -5375,6 +5657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1107034,
 		YahooPlayerID: 32695,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21752,
@@ -5394,6 +5677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 946094,
 		YahooPlayerID: 32719,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21754,
@@ -5413,6 +5697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1050234,
 		YahooPlayerID: 32857,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21756,
@@ -5432,6 +5717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1074698,
 		YahooPlayerID: 33477,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21760,
@@ -5451,6 +5737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 975387,
 		YahooPlayerID: 32877,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21765,
@@ -5470,6 +5757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 886641,
 		YahooPlayerID: 33199,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21768,
@@ -5489,6 +5777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 973964,
 		YahooPlayerID: 33412,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21769,
@@ -5508,6 +5797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976650,
 		YahooPlayerID: 32702,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21772,
@@ -5527,6 +5817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1066765,
 		YahooPlayerID: 32713,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21773,
@@ -5546,6 +5837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 974627,
 		YahooPlayerID: 32892,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21774,
@@ -5565,6 +5857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 946101,
 		YahooPlayerID: 33114,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21776,
@@ -5584,6 +5877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 878371,
 		YahooPlayerID: 32782,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21783,
@@ -5603,6 +5897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 916467,
 		YahooPlayerID: 32785,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21784,
@@ -5622,6 +5917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 913170,
 		YahooPlayerID: 32756,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21785,
@@ -5641,6 +5937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1056981,
 		YahooPlayerID: 33550,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21786,
@@ -5660,6 +5957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 875444,
 		YahooPlayerID: 32775,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21788,
@@ -5679,6 +5977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 877807,
 		YahooPlayerID: 32746,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21794,
@@ -5698,6 +5997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 920077,
 		YahooPlayerID: 32788,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21795,
@@ -5717,6 +6017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 946541,
 		YahooPlayerID: 33533,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21798,
@@ -5736,6 +6037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 866149,
 		YahooPlayerID: 32764,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21800,
@@ -5755,6 +6057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 885394,
 		YahooPlayerID: 33171,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21801,
@@ -5774,6 +6077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976236,
 		YahooPlayerID: 33476,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21802,
@@ -5793,6 +6097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1060545,
 		YahooPlayerID: 32732,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21804,
@@ -5812,6 +6117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976309,
 		YahooPlayerID: 32814,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21807,
@@ -5831,6 +6137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1060312,
 		YahooPlayerID: 32803,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21810,
@@ -5850,6 +6157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 913163,
 		YahooPlayerID: 32993,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21814,
@@ -5869,6 +6177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 821950,
 		YahooPlayerID: 32859,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21815,
@@ -5888,6 +6197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 975829,
 		YahooPlayerID: 33606,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21823,
@@ -5907,6 +6217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 943635,
 		YahooPlayerID: 33235,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21831,
@@ -5926,6 +6237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 913271,
 		YahooPlayerID: 32723,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21841,
@@ -5945,6 +6257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 912137,
 		YahooPlayerID: 32696,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21843,
@@ -5964,6 +6277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1049246,
 		YahooPlayerID: 33265,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21852,
@@ -5983,6 +6297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1059576,
 		YahooPlayerID: 34125,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21854,
@@ -6002,6 +6317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976428,
 		YahooPlayerID: 32794,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21861,
@@ -6021,6 +6337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1107826,
 		YahooPlayerID: 32736,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21865,
@@ -6040,6 +6357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 910808,
 		YahooPlayerID: 32921,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21952,
@@ -6059,6 +6377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 933480,
 		YahooPlayerID: 33100,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21957,
@@ -6078,6 +6397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 949134,
 		YahooPlayerID: 32870,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 21961,
@@ -6097,6 +6417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 912027,
 		YahooPlayerID: 32843,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22119,
@@ -6116,6 +6437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 922040,
 		YahooPlayerID: 32860,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22138,
@@ -6135,6 +6457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 866174,
 		YahooPlayerID: 32876,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22193,
@@ -6154,6 +6477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 877073,
 		YahooPlayerID: 33001,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22206,
@@ -6173,6 +6497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 915066,
 		YahooPlayerID: 33357,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22415,
@@ -6192,6 +6517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1215308,
 		YahooPlayerID: 33351,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22417,
@@ -6211,6 +6537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 875523,
 		YahooPlayerID: 33349,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22490,
@@ -6230,6 +6557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1110711,
 		YahooPlayerID: 33389,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22492,
@@ -6249,6 +6577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1110681,
 		YahooPlayerID: 33399,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22493,
@@ -6268,6 +6597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130975,
 		YahooPlayerID: 33391,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22494,
@@ -6287,6 +6617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 910380,
 		YahooPlayerID: 33452,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22495,
@@ -6306,6 +6637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1108052,
 		YahooPlayerID: 33390,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22496,
@@ -6325,6 +6657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 973945,
 		YahooPlayerID: 33403,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22498,
@@ -6344,6 +6677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 910377,
 		YahooPlayerID: 33729,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22501,
@@ -6363,6 +6697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976924,
 		YahooPlayerID: 33975,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22502,
@@ -6382,6 +6717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1059684,
 		YahooPlayerID: 34030,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22505,
@@ -6401,6 +6737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1060311,
 		YahooPlayerID: 33455,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22506,
@@ -6420,6 +6757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1121871,
 		YahooPlayerID: 33535,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22507,
@@ -6439,6 +6777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1116662,
 		YahooPlayerID: 33443,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22508,
@@ -6458,6 +6797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123026,
 		YahooPlayerID: 33392,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22509,
@@ -6477,6 +6817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1060550,
 		YahooPlayerID: 33469,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22511,
@@ -6496,6 +6837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1059680,
 		YahooPlayerID: 33819,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22512,
@@ -6515,6 +6857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976252,
 		YahooPlayerID: 33485,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22514,
@@ -6534,6 +6877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 943843,
 		YahooPlayerID: 33705,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22515,
@@ -6553,6 +6897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1122692,
 		YahooPlayerID: 34105,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22517,
@@ -6572,6 +6917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1065138,
 		YahooPlayerID: 34607,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22521,
@@ -6591,6 +6937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1122596,
 		YahooPlayerID: 34057,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22524,
@@ -6610,6 +6957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123712,
 		YahooPlayerID: 34133,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22526,
@@ -6629,6 +6977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1162537,
 		YahooPlayerID: 33991,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22535,
@@ -6648,6 +6997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1050833,
 		YahooPlayerID: 33582,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22539,
@@ -6667,6 +7017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1110697,
 		YahooPlayerID: 34078,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22546,
@@ -6686,6 +7037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1174682,
 		YahooPlayerID: 33508,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22547,
@@ -6705,6 +7057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976804,
 		YahooPlayerID: 34310,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22553,
@@ -6724,6 +7077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976329,
 		YahooPlayerID: 33495,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22558,
@@ -6743,6 +7097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1107881,
 		YahooPlayerID: 33423,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22560,
@@ -6762,6 +7117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125882,
 		YahooPlayerID: 34157,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22562,
@@ -6781,6 +7137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130705,
 		YahooPlayerID: 33538,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22563,
@@ -6800,6 +7157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 935104,
 		YahooPlayerID: 33605,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22564,
@@ -6819,6 +7177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1109979,
 		YahooPlayerID: 33393,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22565,
@@ -6838,6 +7197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1122592,
 		YahooPlayerID: 33966,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22566,
@@ -6857,6 +7217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1062765,
 		YahooPlayerID: 34094,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22569,
@@ -6876,6 +7237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 926280,
 		YahooPlayerID: 33444,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22572,
@@ -6895,6 +7257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1131214,
 		YahooPlayerID: 33645,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22587,
@@ -6914,6 +7277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1127106,
 		YahooPlayerID: 33500,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22590,
@@ -6933,6 +7297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 920944,
 		YahooPlayerID: 33637,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22591,
@@ -6952,6 +7317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 923834,
 		YahooPlayerID: 33497,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22592,
@@ -6971,6 +7337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128783,
 		YahooPlayerID: 33422,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22595,
@@ -6990,6 +7357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1059221,
 		YahooPlayerID: 33545,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22597,
@@ -7009,6 +7377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1066424,
 		YahooPlayerID: 34044,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22598,
@@ -7028,6 +7397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125749,
 		YahooPlayerID: 33394,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22602,
@@ -7047,6 +7417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1106760,
 		YahooPlayerID: 33445,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22604,
@@ -7066,6 +7437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1062546,
 		YahooPlayerID: 33519,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22612,
@@ -7085,6 +7457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 945641,
 		YahooPlayerID: 33630,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22613,
@@ -7104,6 +7477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1059612,
 		YahooPlayerID: 33465,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22614,
@@ -7123,6 +7497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 974825,
 		YahooPlayerID: 33408,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22623,
@@ -7142,6 +7517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1108208,
 		YahooPlayerID: 33415,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22626,
@@ -7161,6 +7537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130270,
 		YahooPlayerID: 33437,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22627,
@@ -7180,6 +7557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130213,
 		YahooPlayerID: 40279,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22647,
@@ -7199,6 +7577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 946019,
 		YahooPlayerID: 33590,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22657,
@@ -7218,6 +7597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944038,
 		YahooPlayerID: 33512,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22661,
@@ -7237,6 +7617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 911985,
 		YahooPlayerID: 33891,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22662,
@@ -7256,6 +7637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130555,
 		YahooPlayerID: 33471,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22667,
@@ -7275,6 +7657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1283807,
 		YahooPlayerID: 33556,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22672,
@@ -7294,6 +7677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1068738,
 		YahooPlayerID: 33584,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22676,
@@ -7313,6 +7697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 946748,
 		YahooPlayerID: 33507,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22678,
@@ -7332,6 +7717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 914308,
 		YahooPlayerID: 33621,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22683,
@@ -7351,6 +7737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 886392,
 		YahooPlayerID: 33529,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22685,
@@ -7370,6 +7757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1109285,
 		YahooPlayerID: 33447,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22686,
@@ -7389,6 +7777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1107878,
 		YahooPlayerID: 33470,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22823,
@@ -7408,6 +7797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 921050,
 		YahooPlayerID: 33515,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22892,
@@ -7427,6 +7817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1056747,
 		YahooPlayerID: 33649,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 22925,
@@ -7446,6 +7837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944379,
 		YahooPlayerID: 33571,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23004,
@@ -7465,6 +7857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 885540,
 		YahooPlayerID: 33901,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23010,
@@ -7484,6 +7877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 978120,
 		YahooPlayerID: 33774,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23084,
@@ -7503,6 +7897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1284247,
 		YahooPlayerID: 33803,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23118,
@@ -7522,6 +7917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976323,
 		YahooPlayerID: 34042,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23119,
@@ -7541,6 +7937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1172024,
 		YahooPlayerID: 33973,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23120,
@@ -7560,6 +7957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1177053,
 		YahooPlayerID: 40039,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23121,
@@ -7579,6 +7977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1213362,
 		YahooPlayerID: 40224,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23122,
@@ -7598,6 +7997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1164889,
 		YahooPlayerID: 33965,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23132,
@@ -7617,6 +8017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1213257,
 		YahooPlayerID: 40029,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23134,
@@ -7636,6 +8037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1049263,
 		YahooPlayerID: 34062,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23135,
@@ -7655,6 +8057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1058648,
 		YahooPlayerID: 34084,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23136,
@@ -7674,6 +8077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1218658,
 		YahooPlayerID: 40094,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23138,
@@ -7693,6 +8097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1065361,
 		YahooPlayerID: 34085,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23140,
@@ -7712,6 +8117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1232592,
 		YahooPlayerID: 40065,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23141,
@@ -7731,6 +8137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1168926,
 		YahooPlayerID: 40064,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23143,
@@ -7750,6 +8157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1121873,
 		YahooPlayerID: 40180,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23148,
@@ -7769,6 +8177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1180347,
 		YahooPlayerID: 34055,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23151,
@@ -7788,6 +8197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1178741,
 		YahooPlayerID: 33963,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23153,
@@ -7807,6 +8217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1172053,
 		YahooPlayerID: 34007,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23155,
@@ -7826,6 +8237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1121878,
 		YahooPlayerID: 33971,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23157,
@@ -7845,6 +8257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1214087,
 		YahooPlayerID: 40041,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23160,
@@ -7864,6 +8277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1160348,
 		YahooPlayerID: 33999,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23161,
@@ -7883,6 +8297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1176782,
 		YahooPlayerID: 40073,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23162,
@@ -7902,6 +8317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1214250,
 		YahooPlayerID: 40042,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23163,
@@ -7921,6 +8337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1110725,
 		YahooPlayerID: 34440,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23164,
@@ -7940,6 +8357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1110686,
 		YahooPlayerID: 40326,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23165,
@@ -7959,6 +8377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1213799,
 		YahooPlayerID: 40090,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23166,
@@ -7978,6 +8397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1226343,
 		YahooPlayerID: 40671,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23167,
@@ -7997,6 +8417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1122653,
 		YahooPlayerID: 34088,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23168,
@@ -8016,6 +8437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1176730,
 		YahooPlayerID: 34009,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23170,
@@ -8035,6 +8457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1164875,
 		YahooPlayerID: 33998,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23172,
@@ -8054,6 +8477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1161729,
 		YahooPlayerID: 34049,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23173,
@@ -8073,6 +8497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1164530,
 		YahooPlayerID: 40075,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23174,
@@ -8092,6 +8517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1215792,
 		YahooPlayerID: 40243,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23185,
@@ -8111,6 +8537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1168245,
 		YahooPlayerID: 34100,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23189,
@@ -8130,6 +8557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1228244,
 		YahooPlayerID: 40055,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23190,
@@ -8149,6 +8577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 973966,
 		YahooPlayerID: 34054,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23192,
@@ -8168,6 +8597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1127065,
 		YahooPlayerID: 40625,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23193,
@@ -8187,6 +8617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1215035,
 		YahooPlayerID: 40095,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23195,
@@ -8206,6 +8637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1161798,
 		YahooPlayerID: 40198,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23198,
@@ -8225,6 +8657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1180332,
 		YahooPlayerID: 34079,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23200,
@@ -8244,6 +8677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1214154,
 		YahooPlayerID: 40059,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23205,
@@ -8263,6 +8697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125737,
 		YahooPlayerID: 34112,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23212,
@@ -8282,6 +8717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1167361,
 		YahooPlayerID: 34120,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23214,
@@ -8301,6 +8737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1164402,
 		YahooPlayerID: 33996,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23217,
@@ -8320,6 +8757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1229343,
 		YahooPlayerID: 34047,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23218,
@@ -8339,6 +8777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1050335,
 		YahooPlayerID: 34083,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23223,
@@ -8358,6 +8797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1108998,
 		YahooPlayerID: 34063,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23227,
@@ -8377,6 +8817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130603,
 		YahooPlayerID: 34104,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23230,
@@ -8396,6 +8837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128116,
 		YahooPlayerID: 40195,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23232,
@@ -8415,6 +8857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1107027,
 		YahooPlayerID: 34008,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23233,
@@ -8434,6 +8877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123398,
 		YahooPlayerID: 40063,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23234,
@@ -8453,6 +8897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1175184,
 		YahooPlayerID: 33967,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23237,
@@ -8472,6 +8917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1113403,
 		YahooPlayerID: 40231,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23239,
@@ -8491,6 +8937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1214084,
 		YahooPlayerID: 40030,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23241,
@@ -8510,6 +8957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1121761,
 		YahooPlayerID: 34218,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23247,
@@ -8529,6 +8977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1131012,
 		YahooPlayerID: 34019,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23249,
@@ -8548,6 +8997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1049254,
 		YahooPlayerID: 40144,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23250,
@@ -8567,6 +9017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1131198,
 		YahooPlayerID: 34107,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23251,
@@ -8586,6 +9037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1108161,
 		YahooPlayerID: 34010,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23253,
@@ -8605,6 +9057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1172428,
 		YahooPlayerID: 40201,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23256,
@@ -8624,6 +9077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125111,
 		YahooPlayerID: 34095,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23267,
@@ -8643,6 +9097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1058090,
 		YahooPlayerID: 34093,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23270,
@@ -8662,6 +9117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1116663,
 		YahooPlayerID: 40068,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23273,
@@ -8681,6 +9137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130230,
 		YahooPlayerID: 34087,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23298,
@@ -8700,6 +9157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1068724,
 		YahooPlayerID: 34617,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23302,
@@ -8719,6 +9177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 882718,
 		YahooPlayerID: 34378,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23310,
@@ -8738,6 +9197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128085,
 		YahooPlayerID: 34036,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23325,
@@ -8757,6 +9217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1120915,
 		YahooPlayerID: 34081,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23355,
@@ -8776,6 +9237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128538,
 		YahooPlayerID: 34126,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23364,
@@ -8795,6 +9257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1116001,
 		YahooPlayerID: 34320,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23368,
@@ -8814,6 +9277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1126817,
 		YahooPlayerID: 34147,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23371,
@@ -8833,6 +9297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1106832,
 		YahooPlayerID: 34207,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23395,
@@ -8852,6 +9317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1067918,
 		YahooPlayerID: 33989,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23463,
@@ -8871,6 +9337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128108,
 		YahooPlayerID: 34119,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23468,
@@ -8890,6 +9357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1106846,
 		YahooPlayerID: 34158,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23469,
@@ -8909,6 +9377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1110301,
 		YahooPlayerID: 34005,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23477,
@@ -8928,6 +9397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 913829,
 		YahooPlayerID: 34203,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23479,
@@ -8947,6 +9417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1176443,
 		YahooPlayerID: 34447,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23481,
@@ -8966,6 +9437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 919304,
 		YahooPlayerID: 34027,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23485,
@@ -8985,6 +9457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1122035,
 		YahooPlayerID: 34068,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23486,
@@ -9004,6 +9477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976221,
 		YahooPlayerID: 34154,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23487,
@@ -9023,6 +9497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1057457,
 		YahooPlayerID: 34163,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23488,
@@ -9042,6 +9517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 974631,
 		YahooPlayerID: 34274,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23489,
@@ -9061,6 +9537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1106374,
 		YahooPlayerID: 34099,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23490,
@@ -9080,6 +9557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 975503,
 		YahooPlayerID: 34029,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23573,
@@ -9099,6 +9577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1228586,
 		YahooPlayerID: 34061,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23586,
@@ -9118,6 +9597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125846,
 		YahooPlayerID: 34451,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23604,
@@ -9137,6 +9617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1060650,
 		YahooPlayerID: 34118,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23608,
@@ -9156,6 +9637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1271740,
 		YahooPlayerID: 34148,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23614,
@@ -9175,6 +9657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1131017,
 		YahooPlayerID: 34169,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23618,
@@ -9194,6 +9677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 911239,
 		YahooPlayerID: 34174,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23621,
@@ -9213,6 +9697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1049792,
 		YahooPlayerID: 34183,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23624,
@@ -9232,6 +9717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1384869,
 		YahooPlayerID: 34189,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23632,
@@ -9251,6 +9737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 922451,
 		YahooPlayerID: 34206,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23634,
@@ -9270,6 +9757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 920560,
 		YahooPlayerID: 34214,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23642,
@@ -9289,6 +9777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 912596,
 		YahooPlayerID: 34579,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23644,
@@ -9308,6 +9797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1056865,
 		YahooPlayerID: 34637,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23729,
@@ -9327,6 +9817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 923412,
 		YahooPlayerID: 34659,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23746,
@@ -9346,6 +9837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130833,
 		YahooPlayerID: 34520,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23763,
@@ -9365,6 +9857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 921460,
 		YahooPlayerID: 34571,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23838,
@@ -9384,6 +9877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1075002,
 		YahooPlayerID: 34713,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23847,
@@ -9403,6 +9897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1163866,
 		YahooPlayerID: 34357,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 23867,
@@ -9422,6 +9917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 944636,
 		YahooPlayerID: 34278,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24008,
@@ -9441,6 +9937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1079304,
 		YahooPlayerID: 34597,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24068,
@@ -9460,6 +9957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 865958,
 		YahooPlayerID: 34709,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24076,
@@ -9479,6 +9977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1071823,
 		YahooPlayerID: 34719,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24102,
@@ -9498,6 +9997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1135513,
 		YahooPlayerID: 40048,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24117,
@@ -9517,6 +10017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1215022,
 		YahooPlayerID: 40040,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24118,
@@ -9536,6 +10037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1181874,
 		YahooPlayerID: 40102,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24119,
@@ -9555,6 +10057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1124851,
 		YahooPlayerID: 40211,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24120,
@@ -9574,6 +10077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1173538,
 		YahooPlayerID: 40084,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24121,
@@ -9593,6 +10097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1113477,
 		YahooPlayerID: 40133,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24122,
@@ -9612,6 +10117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1067132,
 		YahooPlayerID: 40158,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24123,
@@ -9631,6 +10137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1169430,
 		YahooPlayerID: 40119,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24124,
@@ -9650,6 +10157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123521,
 		YahooPlayerID: 40220,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24125,
@@ -9669,6 +10177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1232892,
 		YahooPlayerID: 40128,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24140,
@@ -9688,6 +10197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976966,
 		YahooPlayerID: 40096,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24143,
@@ -9707,6 +10217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1229074,
 		YahooPlayerID: 40234,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24145,
@@ -9726,6 +10237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1215077,
 		YahooPlayerID: 40126,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24148,
@@ -9745,6 +10257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1161664,
 		YahooPlayerID: 40164,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24149,
@@ -9764,6 +10277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125589,
 		YahooPlayerID: 40261,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24150,
@@ -9783,6 +10297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1179790,
 		YahooPlayerID: 40074,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24151,
@@ -9802,6 +10317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130260,
 		YahooPlayerID: 40193,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24168,
@@ -9821,6 +10337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1444140,
 		YahooPlayerID: 40504,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24170,
@@ -9840,6 +10357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1109133,
 		YahooPlayerID: 40188,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24171,
@@ -9859,6 +10377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1131204,
 		YahooPlayerID: 40185,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24172,
@@ -9878,6 +10397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1162128,
 		YahooPlayerID: 40168,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24173,
@@ -9897,6 +10417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123529,
 		YahooPlayerID: 40121,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24176,
@@ -9916,6 +10437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128222,
 		YahooPlayerID: 40097,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24177,
@@ -9935,6 +10457,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1164979,
 		YahooPlayerID: 40114,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24178,
@@ -9954,6 +10477,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1214249,
 		YahooPlayerID: 40165,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24179,
@@ -9973,6 +10497,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1231820,
 		YahooPlayerID: 40118,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24180,
@@ -9992,6 +10517,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1175693,
 		YahooPlayerID: 40222,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24188,
@@ -10011,6 +10537,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1228925,
 		YahooPlayerID: 40240,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24194,
@@ -10030,6 +10557,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1228633,
 		YahooPlayerID: 40742,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24199,
@@ -10049,6 +10577,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1120937,
 		YahooPlayerID: 40529,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24204,
@@ -10068,6 +10597,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1173266,
 		YahooPlayerID: 40169,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24214,
@@ -10087,6 +10617,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1222789,
 		YahooPlayerID: 40641,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24217,
@@ -10106,6 +10637,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1161739,
 		YahooPlayerID: 40223,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24220,
@@ -10125,6 +10657,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1214112,
 		YahooPlayerID: 40141,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24221,
@@ -10144,6 +10677,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1121887,
 		YahooPlayerID: 40167,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24223,
@@ -10163,6 +10697,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1164940,
 		YahooPlayerID: 40078,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24226,
@@ -10182,6 +10717,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1213865,
 		YahooPlayerID: 40051,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24238,
@@ -10201,6 +10737,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1213867,
 		YahooPlayerID: 40108,
 		FantasyPositionDepthOrder: 0,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24278,
@@ -10220,6 +10757,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130976,
 		YahooPlayerID: 40780,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24288,
@@ -10239,6 +10777,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1130242,
 		YahooPlayerID: 40061,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24293,
@@ -10258,6 +10797,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1128305,
 		YahooPlayerID: 40281,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24301,
@@ -10277,6 +10817,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1332909,
 		YahooPlayerID: 40734,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24309,
@@ -10296,6 +10837,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1447759,
 		YahooPlayerID: 40707,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24311,
@@ -10315,6 +10857,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1271738,
 		YahooPlayerID: 40696,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24339,
@@ -10334,6 +10877,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1121050,
 		YahooPlayerID: 40452,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24341,
@@ -10353,6 +10897,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1129513,
 		YahooPlayerID: 40308,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24342,
@@ -10372,6 +10917,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1215305,
 		YahooPlayerID: 40313,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24345,
@@ -10391,6 +10937,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1231079,
 		YahooPlayerID: 40545,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24347,
@@ -10410,6 +10957,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1213636,
 		YahooPlayerID: 40232,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24348,
@@ -10429,6 +10977,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1124664,
 		YahooPlayerID: 40093,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24349,
@@ -10448,6 +10997,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1109758,
 		YahooPlayerID: 40242,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24350,
@@ -10467,6 +11017,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1066811,
 		YahooPlayerID: 40138,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24351,
@@ -10486,6 +11037,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1069763,
 		YahooPlayerID: 40153,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24362,
@@ -10505,6 +11057,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1231559,
 		YahooPlayerID: 40445,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24372,
@@ -10524,6 +11077,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1163265,
 		YahooPlayerID: 40162,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24373,
@@ -10543,6 +11097,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1172050,
 		YahooPlayerID: 40267,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24374,
@@ -10562,6 +11117,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123379,
 		YahooPlayerID: 40196,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24375,
@@ -10581,6 +11137,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1107037,
 		YahooPlayerID: 40182,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24397,
@@ -10600,6 +11157,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1223301,
 		YahooPlayerID: 40257,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24421,
@@ -10619,6 +11177,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1125739,
 		YahooPlayerID: 40101,
 		FantasyPositionDepthOrder: 3,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24449,
@@ -10638,6 +11197,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1161853,
 		YahooPlayerID: 40226,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24459,
@@ -10657,6 +11217,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1118734,
 		YahooPlayerID: 40773,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24463,
@@ -10676,6 +11237,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1123630,
 		YahooPlayerID: 40629,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24472,
@@ -10695,6 +11257,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1177970,
 		YahooPlayerID: 40548,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24476,
@@ -10714,6 +11277,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1067089,
 		YahooPlayerID: 40173,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24494,
@@ -10733,6 +11297,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1052852,
 		YahooPlayerID: 40263,
 		FantasyPositionDepthOrder: 4,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24533,
@@ -10752,6 +11317,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1129452,
 		YahooPlayerID: 40335,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24609,
@@ -10771,6 +11337,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1116817,
 		YahooPlayerID: 40430,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24626,
@@ -10790,6 +11357,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1054175,
 		YahooPlayerID: 40358,
 		FantasyPositionDepthOrder: 1,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24686,
@@ -10809,6 +11377,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1132517,
 		YahooPlayerID: 40702,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24709,
@@ -10828,6 +11397,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1132122,
 		YahooPlayerID: 40728,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24718,
@@ -10847,6 +11417,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1064955,
 		YahooPlayerID: 40519,
 		FantasyPositionDepthOrder: 2,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24755,
@@ -10866,6 +11437,7 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 976809,
 		YahooPlayerID: 40374,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 	{
 		PlayerID: 24776,
@@ -10885,5 +11457,6 @@ export const activePlayers: Player[] = [
 		DraftKingsPlayerID: 1113487,
 		YahooPlayerID: 40782,
 		FantasyPositionDepthOrder: 5,
+		selectedForMyTeam: false
 	},
 ]
