@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-
+import Select from "react-select"
 export const CompareTeammates: React.FC = () => {
 	const [myTeam, setMyTeam] = useState(() =>
 		JSON.parse(window.localStorage.getItem("myFantasyTeam"))
@@ -9,10 +9,16 @@ export const CompareTeammates: React.FC = () => {
 			<h2>Compare Teammates</h2>
 			<div className="teammate-comparison-selection-container">
 				<div>
-					<p>Player 1</p>
+        <Select options={myTeam.map((player) => ({
+        value: player.PlayerID,
+        label: player.FullName
+      }))} />
 				</div>
 				<div>
-					<p>Player 2</p>
+        <Select options={myTeam.map((player) => ({
+        value: player.PlayerID,
+        label: player.FullName
+      }))} />
 				</div>
 			</div>
 		</>
