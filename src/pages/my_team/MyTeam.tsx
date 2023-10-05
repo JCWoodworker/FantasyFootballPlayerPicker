@@ -9,7 +9,6 @@ export const MyTeam: React.FC = ({
 		e.preventDefault()
 		setMyTeamList(myTeamList.filter((player) => player.PlayerID != e.target.id))
 	}
-
 	return (
 		<>
 			<h2>My Team</h2>
