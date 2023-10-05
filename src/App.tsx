@@ -22,7 +22,7 @@ function App() {
 
 	return (
 		<>
-			<h1>Weekly Fantasy Picker</h1>
+			<h1>Fantasy Picker</h1>
 			<button onClick={onOptionClick} disabled={!showCompareTeammates}>Add or Remove My Teammates</button>
 			<button onClick={onOptionClick} disabled={!showAddPlayer}>Compare Teammates</button>
 			{showPlayerSelectionOrTeammates}
