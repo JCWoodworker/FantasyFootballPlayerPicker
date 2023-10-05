@@ -39,6 +39,7 @@ export const PlayersIndex: React.FC = () => {
 			: setMyTeamList([...myTeamList, fullPlayerDetails])
 	}
 
+
 	return (
 		<div>
 			<div>
