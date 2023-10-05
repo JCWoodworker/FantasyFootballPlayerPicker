@@ -95,3 +95,12 @@ button:focus-visible {
   justify-content: center;
   gap: 1rem;
 }
+
+.teammate-comparison-selection-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  
+}
