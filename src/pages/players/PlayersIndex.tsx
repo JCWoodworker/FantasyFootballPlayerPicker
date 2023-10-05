@@ -10,15 +10,12 @@ import MyTeam from "../../pages/my_team/MyTeam"
 const draftedPlayerList: ActivePlayer[] =
 	sortPlayersByAverageDraftPosition(activePlayers)
 
-const positionSelectionOptions = ["All", "QB", "RB", "WR", "TE"]
-
 export const PlayersIndex: React.FC = () => {
 	const [draftedPlayers, setDraftedPlayers] = useState(draftedPlayerList)
 	const [myTeamList, setMyTeamList] = useState(
 		JSON.parse(window.localStorage.getItem("myFantasyTeam")) ?? []
 	)
 
-	const [selectedPosition, setSelectedPosition] = useState("All")
 	const [selectedPlayer, setSelectedPlayer] = useState("")
 
 	useEffect(() => {
@@ -29,9 +26,6 @@ export const PlayersIndex: React.FC = () => {
 		setSelectedPlayer({ name: clickedPlayer.label, id: clickedPlayer.value })
 	}
 
-	const handlePositionChange = (clickedPosition) => {
-		setSelectedPosition(clickedPosition.value)
-	}
 
 	const handleAddPlayerToMyTeam = (e) => {
 		e.preventDefault()
@@ -48,23 +42,9 @@ export const PlayersIndex: React.FC = () => {
 		return (
 			<div>
 				<div>
-					<h2>Select Your Team</h2>
+					<h2>Select Players to Compare</h2>
 					<div className="player-and-position-inputs">
 						<div>
-							<Select
-								options={positionSelectionOptions.map((position) => ({
-									value: position,
-									label: position,
-								}))}
-								placeholder="Position"
-								onChange={handlePositionChange}
-								styles={{
-									container: (styles) => ({
-										...styles,
-										width: "10rem",
-									}),
-								}}
-							/>
 						</div>
 						<div>
 							<Select
