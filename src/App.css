@@ -55,8 +55,9 @@ img {
 }
 
 .teammate-show {
-  padding: 0.2rem;
-  border: 1px solid gray;
+  padding: 0.25rem;
+  border: 2px solid black;
+  background-color: rgb(121, 152, 142);
   border-radius: 0.5rem;;
   display: flex;
   flex-direction: row;
@@ -102,5 +103,5 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  
+
 }
