@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react"
 import Select from "react-select"
 
-import { activePlayers } from "../../data/PlayerData"
+import { activePlayers } from "../../data/playerData"
 import { sortPlayersByAverageDraftPosition } from "../../utilities/sortPlayersByAverageDraftPosition"
-
-import ActivePlayer from "../../data/ActivePlayer"
 
 import MyTeam from "../../pages/my_team/MyTeam"
 
