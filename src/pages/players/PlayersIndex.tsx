@@ -39,6 +39,40 @@ export const PlayersIndex: React.FC = () => {
 			: setMyTeamList([...myTeamList, fullPlayerDetails])
 	}
 
+	const backgroundColor = "rgb(75, 75, 75)"
+	const textColor = "white"
+	const styles = {
+		container: (styles) => ({
+			...styles,
+			width: "20rem",
+		}),
+		control: (styles) => ({
+			...styles,
+			backgroundColor: backgroundColor,
+			color: textColor,
+		}),
+		option: (styles, { isFocused }) => ({
+			...styles,
+			backgroundColor: isFocused ? textColor : backgroundColor,
+			color: isFocused ? backgroundColor : textColor,
+		}),
+		menu: (styles) => ({
+			...styles,
+			backgroundColor: backgroundColor,
+			color: textColor,
+		}),
+		placeholder: (styles) => ({
+			...styles,
+			color: textColor,
+		}),
+    singleValue: (styles) => ({
+      ...styles,
+      color: textColor,
+  }),
+	}
+
+
+
 
 	return (
 		<div>
@@ -54,12 +88,7 @@ export const PlayersIndex: React.FC = () => {
 							}))}
 							placeholder="Search for a player"
 							onChange={handlePlayerChange}
-							styles={{
-								container: (styles) => ({
-									...styles,
-									width: "20rem",
-								}),
-							}}
+							styles={styles}
 						/>
 					</div>
 					{selectedPlayer && (

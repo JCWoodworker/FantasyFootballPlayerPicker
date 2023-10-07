@@ -8,7 +8,6 @@ export const CompareTeammates: React.FC = () => {
 
 	const backgroundColor = "rgb(75, 75, 75)"
 	const textColor = "white"
-
 	const styles = {
 		container: (styles) => ({
 			...styles,
