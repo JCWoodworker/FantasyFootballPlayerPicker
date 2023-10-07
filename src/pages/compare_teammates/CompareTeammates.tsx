@@ -6,27 +6,41 @@ export const CompareTeammates: React.FC = () => {
 		JSON.parse(window.localStorage.getItem("myFantasyTeam"))
 	)
 
+	const backgroundColor = "rgb(75, 75, 75)"
+	const textColor = "white"
+
 	const styles = {
 		container: (styles) => ({
 			...styles,
-			width: "20rem",      
+			width: "20rem",
 		}),
-    control: (styles) => ({
+		control: (styles) => ({
+			...styles,
+			backgroundColor: backgroundColor,
+			color: textColor,
+		}),
+		option: (styles, { isFocused }) => ({
+			...styles,
+			backgroundColor: isFocused ? textColor : backgroundColor,
+			color: isFocused ? backgroundColor : textColor,
+		}),
+		menu: (styles) => ({
+			...styles,
+			backgroundColor: backgroundColor,
+			color: textColor,
+		}),
+		placeholder: (styles) => ({
+			...styles,
+			color: textColor,
+		}),
+    singleValue: (styles) => ({
       ...styles,
-      backgroundColor: "black",
-      color: "white",
-    }),
-    option: (styles, { isFocused }) => ({
-      ...styles,
-      backgroundColor: isFocused ? "white" : "black",
-      color: isFocused ? "black" : "white",
-    }),
-    menu: (styles) => ({
-      ...styles,
-      backgroundColor: "black",
-      color: "white",
-    }),
+      color: textColor,
+  }),
 	}
+
+	const placeholder = "Select a player"
+
 	return (
 		<>
 			<h2>Compare Teammates</h2>
@@ -37,7 +51,8 @@ export const CompareTeammates: React.FC = () => {
 							value: player.PlayerID,
 							label: player.FullName,
 						}))}
-            styles={styles}
+						placeholder={placeholder}
+						styles={styles}
 					/>
 				</div>
 				<div>
@@ -46,6 +61,7 @@ export const CompareTeammates: React.FC = () => {
 							value: player.PlayerID,
 							label: player.FullName,
 						}))}
+						placeholder={placeholder}
 						styles={styles}
 					/>
 				</div>
