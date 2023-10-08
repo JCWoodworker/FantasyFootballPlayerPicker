@@ -1,44 +1,26 @@
 import React, { useState } from "react"
 import Select from "react-select"
+import { dropdownStyles } from "./dropdownStyles"
+import { fetchSalaries } from "./fetchSalaries"
 export const CompareTeammates: React.FC = () => {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const [myTeam, setMyTeam] = useState(() =>
 		JSON.parse(window.localStorage.getItem("myFantasyTeam"))
 	)
-
-	const backgroundColor = "rgb(75, 75, 75)"
-	const textColor = "white"
-	const styles = {
-		container: (styles) => ({
-			...styles,
-			width: "20rem",
-		}),
-		control: (styles) => ({
-			...styles,
-			backgroundColor: backgroundColor,
-			color: textColor,
-		}),
-		option: (styles, { isFocused }) => ({
-			...styles,
-			backgroundColor: isFocused ? textColor : backgroundColor,
-			color: isFocused ? backgroundColor : textColor,
-		}),
-		menu: (styles) => ({
-			...styles,
-			backgroundColor: backgroundColor,
-			color: textColor,
-		}),
-		placeholder: (styles) => ({
-			...styles,
-			color: textColor,
-		}),
-    singleValue: (styles) => ({
-      ...styles,
-      color: textColor,
-  }),
-	}
-
+	const [selectionOne, setSelectionOne] = useState("")
+	const [selectionTwo, setSelectionTwo] = useState("")
 	const placeholder = "Select a player"
+
+	const handleSelectionOneChange = (e) => {
+		const value = e.value
+    fetchSalaries(value)
+		setSelectionOne(() => value)
+	}
+	const handleSelectionTwoChange = (e) => {
+		const value = e.value
+    fetchSalaries(value)
+		setSelectionTwo(() => value)
+	}
 
 	return (
 		<>
@@ -51,7 +33,8 @@ export const CompareTeammates: React.FC = () => {
 							label: player.FullName,
 						}))}
 						placeholder={placeholder}
-						styles={styles}
+						styles={dropdownStyles}
+						onChange={handleSelectionOneChange}
 					/>
 				</div>
 				<div>
@@ -61,7 +44,8 @@ export const CompareTeammates: React.FC = () => {
 							label: player.FullName,
 						}))}
 						placeholder={placeholder}
-						styles={styles}
+						styles={dropdownStyles}
+						onChange={handleSelectionTwoChange}
 					/>
 				</div>
 			</div>
