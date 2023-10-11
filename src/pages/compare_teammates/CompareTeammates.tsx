@@ -1,27 +1,37 @@
 import React, { useState } from "react"
+import { dropdownStyles } from "./utilities/dropdownStyles"
+import { fetchSalaries } from "./utilities/fetchSalaries"
+import { Selection } from "./types/types"
+
 import Select from "react-select"
-import { dropdownStyles } from "./dropdownStyles"
-import { fetchSalaries } from "./fetchSalaries"
+
 export const CompareTeammates: React.FC = () => {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const [myTeam, setMyTeam] = useState(() =>
 		JSON.parse(window.localStorage.getItem("myFantasyTeam"))
 	)
-	const [selectionOne, setSelectionOne] = useState("")
-	const [selectionTwo, setSelectionTwo] = useState("")
+	const [selectionOne, setSelectionOne] = useState<Selection>({})
+	const [selectionTwo, setSelectionTwo] = useState<Selection>({})
 	const placeholder = "Select a player"
 
-	const handleSelectionOneChange = (e) => {
+	const handleSelectionOneChange = async (e) => {
 		const value = e.value
-    fetchSalaries(value)
-		setSelectionOne(() => value)
+		const playerSalaryData = await fetchSalaries(value)
+		setSelectionOne(() => playerSalaryData)
 	}
-	const handleSelectionTwoChange = (e) => {
+	const handleSelectionTwoChange = async (e) => {
 		const value = e.value
-    fetchSalaries(value)
-		setSelectionTwo(() => value)
+		const playerSalaryData = await fetchSalaries(value)
+		setSelectionTwo(() => playerSalaryData)
 	}
 
+	let salaryColor = null
+	if (selectionOne?.basicSalary > selectionTwo?.basicSalary) {
+		salaryColor = "green"
+	} else if (selectionOne?.basicSalary < selectionTwo?.basicSalary) {
+		salaryColor = "red"
+	}
+	
 	return (
 		<>
 			<h2>Compare Teammates</h2>
@@ -36,6 +46,18 @@ export const CompareTeammates: React.FC = () => {
 						styles={dropdownStyles}
 						onChange={handleSelectionOneChange}
 					/>
+					<p style={{ color: { salaryColor } }}>
+						{selectionOne?.draftKings || "..."}
+					</p>
+					<p style={{ color: { salaryColor } }}>
+						{selectionOne?.fanDuel || "..."}
+					</p>
+					<p style={{ color: { salaryColor } }}>
+						{selectionOne?.yahooSalary || "..."}
+					</p>
+					<p style={{ color: { salaryColor } }}>
+						{selectionOne?.basicSalary || "..."}
+					</p>
 				</div>
 				<div>
 					<Select
@@ -47,6 +69,18 @@ export const CompareTeammates: React.FC = () => {
 						styles={dropdownStyles}
 						onChange={handleSelectionTwoChange}
 					/>
+					<p style={{ color: { salaryColor } }}>
+						{selectionTwo?.draftKings || "..."}
+					</p>
+					<p style={{ color: { salaryColor } }}>
+						{selectionTwo?.fanDuel || "..."}
+					</p>
+					<p style={{ color: { salaryColor } }}>
+						{selectionTwo?.yahooSalary || "..."}
+					</p>
+					<p style={{ color: { salaryColor } }}>
+						{selectionTwo?.basicSalary || "..."}
+					</p>
 				</div>
 			</div>
 		</>
